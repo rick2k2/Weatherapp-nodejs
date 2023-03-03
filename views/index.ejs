@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RICK WEATHER APP LIVE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action='/weather' method="post">
+        <div class="moving_txt">
+            <marquee><img src="./img/new.gif" class="new_gif"/><p class="heading_txt">Always Found LIVE Weather Anywhere Anytime</p></marquee>
+        </div>
+        <div class="heading">
+            <h1>Welcome to Rick Weather app</h1>
+            <img src="./img/weather.png"/>
+        </div>
+        <input type="text" name="city" placeholder="Enter city name to see weather details"/>
+        <button type="submit" name="submit">Search Weather</button>
+        <br><br>
+        <div clasname="result">
+            <h2 classname="details_txt">Location: <%= data.location %></h2>
+            <h2 classname="details_txt">Tempreture: <%= data.temp %><sup>&#176;</sup>C</h2>
+            <h2 classname="details_txt">Weather: <%= data.desc %></h2>
+        </div>
+        <br>
+        <span class="copyright">@app owner: dev_rick_saha</span>
+    </form>
+</body>
+</html>

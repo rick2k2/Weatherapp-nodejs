@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: repeating-radial-gradient(circle at 0 0, #0b92e1, #63c9f5 50px);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 97.1vh;
+}
+form {
+  margin-top: 20px;
+  display: flex;
+  padding: 150px 0;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.heading {
+  display: flex;
+}
+.moving_txt {
+  display: flex;
+  width: 100%;
+  background: yellow;
+  padding: 10px;
+  margin-top: -170px;
+  margin-bottom: 150px;
+  height: 80px;
+}
+.new_gif {
+  width: 30px;
+  height: 30px;
+}
+.heading_txt {
+  display: inline-block;
+  margin-top: -50px;
+  color: red;
+  font-size: 17px;
+}
+img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+h1 {
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 20px;
+}
+input {
+  padding: 8px 50px;
+  border: none;
+  outline: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  width: 30%;
+  border-radius: 30px;
+}
+button {
+  padding: 8px 50px;
+  border: none;
+  outline: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  background: darkblue;
+  color: #fff;
+  transition: 2s ease-in-out;
+  border-radius: 50px;
+  cursor: pointer;
+}
+button:hover {
+  color: darkblue;
+  background: white;
+}
+.copyright {
+  color: darkblue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+h2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+
+
+
+/* Responsive design */
+/* Mobile devices. */
+@media only screen and (min-width: 320px) and (max-width:480px){
+
+  form {
+    margin-top: 20px;
+    display: flex;
+    padding: 80px 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+  .heading {
+    display: flex;
+  }
+  .moving_txt {
+    display: flex;
+    width: 100%;
+    background: yellow;
+    padding: 10px;
+    margin-top: -170px;
+    margin-bottom: 150px;
+  }
+  .new_gif {
+    width: 30px;
+    height: 30px;
+  }
+  .heading_txt {
+    display: inline-block;
+    margin-top: -50px;
+    color: red;
+    font-size: 17px;
+  }
+  img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+  }
+  h1 {
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    padding: 30px;
+    font-size:20px;
+  }
+  input {
+    padding: 8px 40px;
+    border: none;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-bottom: 30px;
+    width: 80%;
+    border-radius: 30px;
+  }
+  button {
+    padding: 8px 30px;
+    border: none;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background: darkblue;
+    color: #fff;
+    transition: 2s ease-in-out;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  button:hover {
+    color: darkblue;
+    background: white;
+  }
+  .copyright {
+    color: darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+  }
+  
+  h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+  }
+  
+}
+/* iPads, Tablets. */
+@media only screen and (min-width: 481px) and (max-width:768px){
+  img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    margin-left: -50px;
+  }
+  h1 {
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    padding: 30px;
+    font-size:18px;
+  }
+  input {
+    padding: 8px 30px;
+    border: none;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    margin-bottom: 30px;
+    width: 60%;
+    border-radius: 30px;
+  }
+  button {
+    padding: 8px 20px;
+    border: none;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    background: darkblue;
+    color: #fff;
+    transition: 2s ease-in-out;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+  }
+  .copyright {
+    color: darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .moving_txt {
+    display: flex;
+    width: 100%;
+    background: yellow;
+    padding: 10px;
+    margin-top: -170px;
+    margin-bottom: 150px;
+    height: 70px;
+    text-align: center;
+    justify-content: center;
+  }
+  
+}
+/* Small screens, laptops. */
+@media only screen and (min-width: 769px) and (max-width:1024px){
+ 
+}
+/* Desktops, large screens. */
+@media only screen and (min-width: 1025px) and (max-width:1200px){
+  
+}
+/* Extra large screens, TV. */
+@media only screen and (min-width: 1201px) and (max-width:5000px){
+  
+}
+
